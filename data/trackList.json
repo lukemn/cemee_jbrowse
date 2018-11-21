@@ -33,8 +33,7 @@
          "label" : "WS220_genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature",
-            "linkTemplate" : "https://wormbase.org/species/c_elegans/gene/{alias}"
+            "className" : "feature"
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
