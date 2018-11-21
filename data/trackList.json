@@ -37,28 +37,11 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json"
-         "menuTemplate": [
-        {
-          "label": "View details",
-          "title": "{type} {name}",
-          "action": "contentDialog",
-          "iconClass": "dijitIconTask"
-        },
-        {
-          "iconClass": "dijitIconConnector"
-        },
-        {
-          "iconClass": "dijitIconFilter"
-        },
-        {
-          "label": "Search WormBase",
-          "title": "Search WormBase (feature{name})",
-          "iconClass": "dijitIconDatabase",
-          "action": "iframeDialog",
-          "url": "https://wormbase.org/search/gene/{name}"
-        }
-       ],
+         "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json",
+         "onClick" : {
+           "label": "Search WormBase",
+           "url": "https://wormbase.org/search/gene/{name}"
+         }
       }
    ]
 }
