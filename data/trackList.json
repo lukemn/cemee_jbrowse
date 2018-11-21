@@ -22,6 +22,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature"
+            "strandArrow" : false
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
