@@ -39,8 +39,8 @@
          "type" : "CanvasFeatures",
          "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json",
          "onClick" : {
-           "label": "Search WormBase",
-           "url": "https://wormbase.org/search/gene/{name}"
+            "label" : "Search WormBase",
+            "url" : "https://wormbase.org/search/gene/{name}"
          }
       }
    ]
