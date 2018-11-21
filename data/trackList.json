@@ -21,8 +21,7 @@
          "label" : "Founder_SNPs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature",
-            "strandArrow" : false
+            "className" : "feature"
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
