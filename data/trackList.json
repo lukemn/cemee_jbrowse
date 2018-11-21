@@ -37,8 +37,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json",
-         "fmtDetailValue_Name": "function(name) { return '<a href=\"https://wormbase.org/search/gene/'+name+'\">'+name+'</a>'; }"
+         "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json"
       }
    ]
 }
