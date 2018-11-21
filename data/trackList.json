@@ -1,5 +1,9 @@
 {
    "formatVersion" : 1,
+   "names" : {
+      "type" : "Hash",
+      "url" : "names/"
+   },
    "tracks" : [
       {
          "category" : "Reference sequence",
@@ -13,18 +17,6 @@
       },
       {
          "compress" : 0,
-         "key" : "WS220_genes",
-         "label" : "WS220_genes",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "style" : {
-            "className" : "feature"
-         },
-         "trackType" : "CanvasFeatures",
-         "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json"
-      },
-      {
-         "compress" : 0,
          "key" : "Founder_SNPs",
          "label" : "Founder_SNPs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
@@ -34,6 +26,19 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "urlTemplate" : "tracks/Founder_SNPs/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "key" : "WS220_genes",
+         "label" : "WS220_genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "linkTemplate" : "https://wormbase.org/species/c_elegans/gene/{alias}"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/WS220_genes/{refseq}/trackData.json"
       }
    ]
 }
